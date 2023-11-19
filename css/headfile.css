@@ -1,0 +1,12 @@
+img {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.nav-link.disabled {
+  pointer-events: none; /* Disable click events */
+  color: gray; /* Change the color of disabled links */
+}

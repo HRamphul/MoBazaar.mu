@@ -1,0 +1,38 @@
+{
+    "type": "array",
+    "minItems": 0, 
+    "items": {
+        "type": "object",
+        "properties": {
+            "userFname": {
+                "type": "string"
+            },
+            "userTelNo": {
+                "type": "string"
+            },
+            "userAddress": {
+                "type": "string"
+            },
+            "orderTotal": {
+                "type": "string"  
+            },
+            "orders": {
+                "type": "array",
+                "minItems": 1, 
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "prodId": {
+                            "type": "integer"
+                        },
+                        "quantityOrdered": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": ["prodId", "quantityOrdered"]
+                }
+            }
+        },
+        "required": ["userFname", "userTelNo", "userAddress", "orderTotal", "orders"]
+    }
+}

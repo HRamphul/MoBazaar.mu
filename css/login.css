@@ -1,0 +1,70 @@
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+input:required:invalid::before {
+  content: "Please fill out this field";
+  color: red;
+  font-size: 12px;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+button[type="reset"] {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+button[type="reset"]:hover {
+  background-color: #e2e2e2;
+}

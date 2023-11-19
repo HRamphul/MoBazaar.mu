@@ -1,0 +1,19 @@
+{
+    "minItems": 1, 
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "orderNo": { "type": "integer" },
+            "userId": { "type": "integer" },
+            "orderDateTime": { "type": "integer" },
+            "reviewed": { "type": "integer" },
+            "despatch": { "type": "integer" }
+        },
+        "required": [ "orderNo","userId", "orderDateTime", "reviewed", "despatch"],
+        "additionalProperties": false
+    }
+}
+
+
+

@@ -1,0 +1,61 @@
+  /* Style the select input */
+  select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Change the background color of the submit button when the cursor hovers over it */
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Change the background color of the submit button when it's clicked */
+input[type="submit"]:active {
+    background-color: #1e642c;
+}
+
+/* Center the form */
+form {
+    flex-direction: column;
+    align-items: left;
+}
+
+
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Change the background color of the submit button when the cursor hovers over it */
+input[type="button"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Change the background color of the submit button when it's clicked */
+input[type="button"]:active {
+    background-color: #1e642c;
+}
+

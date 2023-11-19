@@ -1,0 +1,48 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  input[type=text], input[type=password] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #3e8e41;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+  }
+  
+  table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table tr:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

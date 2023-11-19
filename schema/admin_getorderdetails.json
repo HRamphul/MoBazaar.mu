@@ -1,0 +1,19 @@
+{
+    "minItems": 1, 
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "orderNo": { "type": "integer" },
+            "prodId": { "type": "integer" },
+            "quantityOrdered": { "type": "integer" },
+            "subTotal": { "type": "integer" }
+        },
+        "required": [ "orderNo","prodId", "quantityOrdered", "subTotal"],
+        "additionalProperties": false
+        
+    }
+}
+
+
+
